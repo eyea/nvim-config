@@ -85,6 +85,7 @@ call plug#begin('~/.config/nvim/plugged')
     let g:current_line_whitespace_disabled_hard=1
     highlight ExtraWhitespace ctermbg=red
   Plug 'justinmk/vim-sneak'
+  Plug 'preservim/nerdtree'
 call plug#end()
 
 "fix vscode folding
@@ -201,3 +202,6 @@ nmap <leader>w <c-w>v<c-w>l
 nmap <leader>wc <c-w>c
 nmap <leader>ww <c-w>w
 nmap <leader>ws <c-w>s
+
+" nerdtree 
+map <leader>nt :NERDTreeToggle<cr>
