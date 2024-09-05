@@ -6,6 +6,16 @@
 ProductName:		macOS
 ProductVersion:		14.2.1
 BuildVersion:		23C71
+
+➜  ~ nvim -V1 -v
+NVIM v0.10.1
+Build type: Release
+LuaJIT 2.1.1720049189
+
+     系统 vimrc 文件: "$VIM/sysinit.vim"
+         $VIM 预设值: "/opt/homebrew/Cellar/neovim/0.10.1/share/nvim"
+
+Run :checkhealth for more info
 ```
 
 ## 安装 neovim
