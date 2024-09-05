@@ -119,7 +119,14 @@ brew install --cask font-victor-mono-nerd-font
 - `Plug 'justinmk/vim-sneak'`  光标快速移动
 
 ## 使用提示
-当使用 `Plug 'voldikss/vim-floaterm'`，你会看到本配置文件中有 `nmap <leader>lz :FloatermNew lazygit<cr>`
+1. 当使用 `Plug 'voldikss/vim-floaterm'`，你会看到本配置文件中有 `nmap <leader>lz :FloatermNew lazygit<cr>`
 该行指令，很明显需要有 `lazygit`的执行环境： [lazygit install](https://github.com/jesseduffield/lazygit?tab=readme-ov-file#homebrew)
 同时也需要在 `git`的仓库内执行
+
+2. `Plug 'mattn/emmet-vim'` 自动补充，快捷键是 `control + y + ,` 更多使用说明看 [mattn/emmet-vim](https://github.com/mattn/emmet-vim?tab=readme-ov-file#quick-tutorial)
+3. `Plug 'ervandew/supertab'` Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs (:help ins-completion). [ervandew/supertab](https://github.com/ervandew/supertab)
+4. `Plug 'tpope/vim-commentart` 注释 比如 `vmap gc` `nmap <leader>cc` [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
+5. `Plug 'ntpeters/vim-better-whitespace'` This plugin causes all trailing whitespace characters (see Supported Whitespace Characters below) to be highlighted. [ntpeters/vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
+6. `Plug 'justinmk/vim-sneak'` 使用 `:help sneak` Jump to any location specified by two characters. [justinmk/vim-sneak](https://github.com/justinmk/vim-sneak)
+7. `Plug 'preservim/nerdtree'` A file system explorer for the Vim editor. [preservim/nerdtree](https://github.com/preservim/nerdtree) 我这里打开显示文件行数的功能
 
