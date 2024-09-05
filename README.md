@@ -1,5 +1,13 @@
 # NeoVim 安装配置
 
+## 环境说明
+```
+➜  ~ sw_vers
+ProductName:		macOS
+ProductVersion:		14.2.1
+BuildVersion:		23C71
+```
+
 ## 安装 neovim
 
 ```bash
@@ -109,4 +117,9 @@ brew install --cask font-victor-mono-nerd-font
 - `Plug 'tpope/vim-commentary'`  自动注释插件
 - `Plug 'ntpeters/vim-better-whitespace'` 清除行末空格
 - `Plug 'justinmk/vim-sneak'`  光标快速移动
+
+## 使用提示
+当使用 `Plug 'voldikss/vim-floaterm'`，你会看到本配置文件中有 `nmap <leader>lz :FloatermNew lazygit<cr>`
+该行指令，很明显需要有 `lazygit`的执行环境： [lazygit install](https://github.com/jesseduffield/lazygit?tab=readme-ov-file#homebrew)
+同时也需要在 `git`的仓库内执行
 
